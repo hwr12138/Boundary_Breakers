@@ -40,22 +40,3 @@ Technologies we use include:
     $ flutter run -d chrome --web-port=3001 lib/main.dart
     $ flutter run -d emulator-5554 lib/main.dart
     ```
-
-## Contribution
-### Do you use Git Flow? 
-Yes, we will use the Git Flow model that uses multiple feature and main branches. 
-### What do you name your branches? 
-- main branch: containing the current working version
-- develop branch: containing the current developing code that will be merged into the main branch
-- feature-Name branches: containing newly made features branching off the develop branch. 
-### Do you use github issues or another ticketing website? 
-Github Issues, Discord, and Jira will be used to ticket issues.
-### Do you use pull requests? 
-Yes, process described below: 
-1. Clone repository from this site and create a new branch.
-```sh
-git checkout https://github.com/UTSCCSCC01/projectf21-team-boundarybreakers -b name_for_new_branch
-```
-2. Change existing functions or add new features.
-3. Test thoroughly.
-4. Submit pull request with a detailed description of changes made. 
